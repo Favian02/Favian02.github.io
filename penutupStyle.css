@@ -1,0 +1,74 @@
+body{
+  background-color: green;
+  color: white;
+  background-image: url(gambar5.jpg);
+}
+
+.container{
+  width: 830px;
+  margin: auto;
+  background-color: rgba(0, 0, 255, 0.3);
+}
+
+.header{
+  padding: 1px;
+  color: white;
+  
+}
+
+.navbar li{
+  display: inline-block;
+}
+
+.navbar a{
+  background-color: green;
+  color: white;
+  padding: 3px;
+}
+
+.navbar a:hover{
+  background-color: white;
+  color: black;
+}
+
+.gambar{
+  height: 300px;
+  background-image: url(gambar7.png);
+  background-size: cover;
+  background-position: center;
+  margin: 2px;
+}
+
+.hero{
+  color: white;
+}
+
+.ikuti{
+  width: 500px;
+  height: 50px;
+  color: white;
+  padding-right: 30px;
+  padding-right: 10px;
+}
+
+.hero .button1{
+  height: 25px;
+  background: grey;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: black;
+}
+
+.main{
+  padding: 15px;
+  background: rgba(0, 255, 0, 0.3);
+  color: white;
+  margin: 10px 0 10px 0;
+}
+
+.end{
+  padding: 15px;
+  background-color: rgba(0, 0, 255, 0.5);
+  color: white;
+  margin: 10px 0 10px 0 10px;
+}

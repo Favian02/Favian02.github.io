@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Benoa</title>
+    <link rel="stylesheet" type="text/css" href="utama.css">
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<body>
+    <div class="navbar">
+        <a href="rajaAmpat.html">Raja Ampat</a>
+        <a href="penutup.html">Contact Us</a>
+        <a href="index.html">Log Out</a>
+    </div>
+
+
+    <!--Image Benoa-->
+    <div class="benoa"></div>
+
+    <div class="content">
+        <h5 class="about">
+            <span class="tag">About The Benoa Beach</span>
+        </h5>
+        <p>Tanjung Benoa merupakan tempat wisata di Bali yang terkenal akan pantainya.
+            Tempat ini juga merupakan surganya wahana air seperti banana boat, scuba diving,
+            parasailing, rolling donut, seawalker, flying fish, snorkeling dll. Selain itu,
+            terdapat pelayaran menuju Pulau Penyu tempat hidup dan penangkaran seekor kura-kura,
+            ular, jalak bali, dan sebagainya.Sehingga tidak salah kalau Tanjung Benoa dikenal sebagai
+            pusat wisata bahari di Bali.</p>
+
+        <h3 class="about1">
+            <span class="tag1">Objek wisata pantai pasir putih di Bali</span>
+        </h3>
+        <div class="pasirputih"></div>
+        <p>Pulau Bali di kelilingi oleh lautan, membuat hampir semua daerah dibagian pinggir pulau Bali, terdapat
+            pantai.
+            Baik pantai yang memiliki pasir putih atau pantai yang memiliki pasir hitam. Tentunya sebagian besar dari
+            wisatawan,
+            menyukai liburan ke objek wisata pantai pasir putih di Bali. Penyebabnya, karena pasir pantai tidak terlalu
+            panas di siang hari,
+            dibandingkan dengan pantai pasir hitam. Salah satu objek wisata pantai di Bali yang banyak mendapat
+            kunjungan wisatawan Indonesia adalah pantai
+            Tanjung Benoa Bali yang lokasinya berada di kawasan pariwisata Tanjung Benoa Nusa Dua Bali.</p>
+        <h3 class="about2">
+            <span class="tag2">Pilihan Permainan Tanjung Benoa Watersport</span>
+        </h3>
+        <ol>
+            <li>Banana Boat</li>
+            <li>Flying Fish</li>
+            <li>Parasailing</li>
+            <li>Snorkeling</li>
+            <li>Seawalker Tanjung Benoa</li>
+            <li>Wisata Bahari</li>
+        </ol>
+
+        <h3 class="about3">
+            <span class="tag3">Letak Pantai Tanjung Benoa Bali</span>
+        </h3>
+        <!--Google Maps-->
+
+            <script src="https://maps.googleapis.com/maps/api/js"></script>
+            <script>
+                function initialize() {
+                    var propertiPeta = {
+                        center:new google.maps.LatLng(-8.760505316985187,115.223390995862),
+                        zoom:15,
+                        mapTypeId:google.maps.MapTypeId.ROADMAP
+                    };
+    
+                    var peta = new google.maps.Map(document.getElementById("googleMap"), propertiPeta);
+    
+                    var marker = new google.maps.Marker({
+                        position: new google.maps.LatLng(-8.760505316985187,115.223390995862),
+                        map: peta
+                    });
+                }
+    
+                google.maps.event.addDomListener(window, 'load', initialize);
+            </script>
+            <div id="googleMap" style="width: 100%; height: 380px; position: 0;"></div>
+    </div>
+
+    <!--Button Back-->
+    <!--<a href="index.html"><button>BACK</button></a>
+    <a href="rajaAmpat.html"><button>Raja Ampat</button></a>
+    <a href="penutup.html"><button>Contact Us</button></a>-->
+    <!--FOOTER-->
+    <div class="footer">
+        <p class="copy">&copy; Copyright 2021 By Favian & Dony</p>
+    </div>
+</body>
+
+</html>
